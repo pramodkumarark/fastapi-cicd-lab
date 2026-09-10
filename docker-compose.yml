@@ -1,0 +1,7 @@
+services:
+
+  api:
+    image: ghcr.io/pramodkumarark/fastapi-cicd-lab:${IMAGE_TAG}
+    container_name: fastapi-api
+    ports:
+      - "8000:8000"
